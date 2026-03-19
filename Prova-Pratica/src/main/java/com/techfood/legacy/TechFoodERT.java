@@ -76,7 +76,7 @@ public class TechFoodERT {
                                 pratoTotal++;
                             }
                             break;
-                        case 4: // ESTOQUE (Viola SRP)
+                       case 4: // ESTOQUE (Viola SRP)
                             for (int i = 0; i < pratoTotal; i++)
                                 System.out.println(i + ": " + pratoNomes[i] + " | Qtd: " + pratoEstoque[i]);
                             System.out.print("Index para dar entrada: ");
